@@ -29,7 +29,7 @@ int main() {
 				break;
 			else if (error)
 				throw boost::system::system_error(error);
-			//버퍼에 담긴 데이터를 화면에 출력
+			//버퍼에 담긴 데이터를 화면에 출력.
 			cout.write(buf.data(), len);
 		}
 	}
